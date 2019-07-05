@@ -1,0 +1,11 @@
+// 不定长数组操作
+        uint256[] ia;
+
+        ia.push(10);
+        ia.push(20);
+        ia.push(30);
+        
+        (ia[0], ia[ia.length-1]) = (ia[ia.length-1], ia[0]);
+        
+        ia.length--;
+        ia.push(40);
