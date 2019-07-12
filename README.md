@@ -1,2 +1,2 @@
 # document
-some docs private
+some docs
