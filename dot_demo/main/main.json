@@ -1,0 +1,35 @@
+{
+  "log": {
+    "file": "log.log",
+    "level": "debug"
+  },
+  "dots": [
+    {
+      "metaData": {
+        "typeId": "f74c6b0f-a6b0-4e01-9e5a-231325749463"
+      },
+      "lives": [
+        {
+          "liveId": "f74c6b0f-a6b0-4e01-9e5a-231325749463",
+          "json": {
+            "summary_num": 10
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "8ff771db-14db-46a2-bea0-14f812733834"
+      },
+      "lives": [
+        {
+          "liveId": "8ff771db-14db-46a2-bea0-14f812733834",
+          "json": {
+            "config_one": "[dot config item one]",
+            "config_two": "[dot config item two]"
+          }
+        }
+      ]
+    }
+  ]
+}

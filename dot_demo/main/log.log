@@ -1,0 +1,90 @@
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:05:51]	INFO	line/build.go:84	dots create
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:05:51]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:05:51]	INFO	line/build.go:98	dots start
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:06:51]	INFO	line/build.go:84	dots create
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:06:51]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:06:51]	INFO	line/build.go:98	dots start
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:18:12]	INFO	line/build.go:84	dots create
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:18:12]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:18:12]	INFO	line/build.go:98	dots start
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:21:30]	INFO	line/build.go:84	dots create
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:21:30]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:21:30]	INFO	line/build.go:98	dots start
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:322	Create dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:21:47]	INFO	line/build.go:84	dots create
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:241	level : 0
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:243	8ff771db-14db-46a2-bea0-14f812733834
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:243	ea383705-9e3e-44c9-b64d-bac82b732c08
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:243	f74c6b0f-a6b0-4e01-9e5a-231325749463
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:241	level : 1
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "8ff771db-14db-46a2-bea0-14f812733834"}
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "ea383705-9e3e-44c9-b64d-bac82b732c08"}
+[2019-07-13 14:21:47]	DEBUG	line/line_imp.go:850	Start dot: 	{"": "f74c6b0f-a6b0-4e01-9e5a-231325749463"}
+[2019-07-13 14:21:47]	INFO	line/build.go:98	dots start
