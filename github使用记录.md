@@ -25,7 +25,7 @@ git remote add [repository name] [url]
 ### 分支操作  
 git branch -v   
 git branch [branch name] 新建分支  
-git branch -d [branch name] 
+git branch -d [branch name]  
 git checkout [branch name] 切换分支  
 git checkout -b [branch name] 新建分支并切换到目标分支上  
 
