@@ -44,4 +44,4 @@ github可以通过issue管理开发进度和bug修复情况。
 一个issue主要包括标题、内容、指派、标签和节点，其中标签可以自定义，节点需要提前创建。
 git commit的时候，可以通过在消息中添加：
  - fix #xx(fixes/fixed #xx)：关联到目标issue，打开issue可以看到本次提交
- - close #xx(closes/closed #xx)：关闭目标issue
+ - close #xx(closes/closed #xx)：关联并关闭目标issue
