@@ -1,5 +1,5 @@
 # Github使用记录  
-记录自己学习和使用github的过程。  
+> 本文记录了笔者学习和使用github的过程。  
 
 ---
 ### 基础的代码上传、下载操作  
@@ -45,3 +45,7 @@ github可以通过issue管理开发进度和bug修复情况。
 git commit的时候，可以通过在消息中添加：
  - fix #xx(fixes/fixed #xx)：关联到目标issue，打开issue可以看到本次提交
  - close #xx(closes/closed #xx)：关联并关闭目标issue
+
+---
+###### Mario
+I've been pretending to work hard, but you're really growing up.
