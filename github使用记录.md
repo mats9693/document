@@ -34,7 +34,8 @@ git merge [branch name] 合并目标分支到当前分支上
 ---
 ### github Pull requests (PR)  
 github提供PR功能用来进行项目组外成员贡献自己的代码，也可以用来进行项目组内的code review。  
-上面两种情况主要的区别在于PR发起人是否具有repository的提交权限：如果有权限，那么本地新建分支push、PR时选择[new branch] -> [master]即可；如果没有，则需要fork该代码仓库到自己的github，然后修改自己github中的仓库、在目标仓库发起PR、选择[self repository.branch] -> [target branch]。  
+上面两种情况主要的区别在于PR发起人是否具有repository的提交权限：如果有权限，那么本地新建分支push、PR时选择[new branch] -> [master]即可；
+如果没有，则需要fork该代码仓库到自己的github，然后修改自己github中的仓库、在自己的仓库发起PR、选择[self repository.branch] -> [target branch]。  
 PR支持compare and merge/review and comments/delete extra branch等操作。  
 PR也可以通过命令行进行操作。  
 
