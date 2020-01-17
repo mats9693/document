@@ -44,7 +44,7 @@ done
 ### codecov
 > 值得一提的是，codecov不支持中文路径，如果你的测试报告路径中有中文（或者说有中文路径），对应部分将被屏蔽。
 
-上面介绍了两个脚本的基本情况，并保证其可用([demo](https://github.com/mats9693/leetcode))。  
+上面介绍了两个脚本的基本情况，并保证其可用([demo-leetcode](https://github.com/mats9693/leetcode), [demo-utils](https://github.com/mats9693/utils))。  
 
 ---
 ###### Mario
