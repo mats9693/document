@@ -86,5 +86,27 @@ git commit的时候，可以通过在消息中添加指定标志，来操作issu
  - close #xx(closes/closed #xx)：关联并关闭目标issue
 
 ---
+### git stash clear误删除与恢复
+#### 核心命令：  
+$ git log --graph --oneline --decorate $(git fsck --no-reflog | awk '/dangling commit/ {print $3}')  
+$ git stash apply [commit id, e4a07d4 in this time] (WIP record)  
+$ git show [commit id]  
+#### 部分执行结果：
+```text  
+Checking object directories: 100% (256/256), done.  
+Checking objects: 100% (5645/5645), done.  
+* 201284c index on master: 5c1fd9f background picture and npm lint format
+| *   e4a07d4 WIP on master: 5c1fd9f background picture and npm lint format
+| |\
+|/ /
+| * fded4cd index on master: 5c1fd9f background picture and npm lint format
+|/
+* 5c1fd9f (HEAD -> master, origin/master, origin/HEAD) background picture and npm lint format
+* 2d2ba64 Change the data representation
+| *   5a0304b WIP on master: 0c0309b blockchain format as ui-cut
+... ...（折叠了历史记录）
+```
+
+---
 ###### Mario
 I've been pretending to work hard, but you're really growing up.
