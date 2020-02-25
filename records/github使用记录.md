@@ -1,5 +1,5 @@
 # Github使用记录  
-> 本文记录了笔者学习和使用github的过程。  
+> 本文记录了笔者学习使用git和github的过程。  
 
 ---
 ### 基础的代码上传、下载操作  
@@ -13,6 +13,7 @@ git stash clear
 git stash  
 git stash pop [stash@{[n]}]  
 git pull [repository name] [branch name]  
+（pull是fetch+merge的语法糖）  
 
 ---
 ### 初始化  
@@ -27,17 +28,23 @@ git remote add [repository name] [url]
 git branch -[a/r]v 列出所有/远端/本地分支  
 git branch [branch name] 新建分支  
 git branch -d [branch name] 使用"-D"强制删除  
+git branch -f [branch A] [branch B or commit B] 将A分支强制移动到B分支或B提交  
 git checkout [branch name] 切换分支  
 git checkout -b [branch name] 新建分支并切换到目标分支上  
+（checkout实际上操作的是HEAD）  
 
-git merge [branch name] 合并目标分支到当前分支上  
+git merge [branch name(s)] 合并目标分支到当前分支上  
 git merge [branch A] [branch B] 把A分支合并到B分支
+git rebase [branch A] [branch B] 把B分支移动到A分支上（B分支可以为空，为空时默认为当前分支）  
 
 ---
 ### 标签
 git tag [tag name] [commit id] 为指定commit生成tag  
 git push remote [tag name] 提交指定tag  
 git push remote --tags 提交所有tag
+
+git describe [commit id] 输出格式：<tag>_<numCommits>_g<hash>，返回距离给出的提交最近的tag，
+如果该提交与tag指向的提交不同，则注明两次提交的距离，以及给出的提交的部分hash；否则只返回tag名称
 
 ---
 ### 比较
@@ -55,11 +62,22 @@ git checkout [file name] 将*工作区*的指定文件恢复成*暂存区*中的
 git reset [file name] 将*暂存区*的指定文件恢复成*HEAD*中的样子  
 git reset --hard 将*工作区*和*暂存区*的所有文件恢复成*HEAD*中的样子  
 
+git reset [commit id] 恢复为指定提交  
+git revert [commit id] “撤销为该提交的上一次提交”，并将本次撤销操作生成一次提交，提交到当前分支上  
+
 ---
 ### 日志
 git log --online --graph -n/--all 使用图显示*最近n个/所有*commit，每个commit显示为一行  
 git log [file name] 查看涉及指定文件的所有commit  
 git blame [file name] 查看指定文件各行最后修改所在的commit及作者
+
+---
+### 整理提交记录
+git cherry-pick [commit id(s)] 在当前分支上新增指定的提交记录
+
+git rebase -interactive/-i [commit id] 修改指定提交之后的提交，包括删除和调整顺序
+
+git commit --amend 在当前提交上，追加修改
 
 ---
 ### 其他
@@ -84,6 +102,13 @@ github可以通过issue管理开发进度和bug修复情况。
 git commit的时候，可以通过在消息中添加指定标志，来操作issue（#xx中，xx为issue编号）：
  - fix #xx(fixes/fixed #xx)：关联到目标issue，打开issue可以看到本次提交
  - close #xx(closes/closed #xx)：关联并关闭目标issue
+
+---
+### 总结
+1. git的核心是一条条的提交记录（commit record），而分支则像是一个指向提交记录的指针。  
+   - 想一想提交记录的相对引用（“^”、“~<num>”），分支是不是很像一个链表的指针？
+1. git checkout实际上移动的是HEAD“指针”，HEAD可以指向一个分支，也可以直接指向一个提交。  
+1. git为每一个提交生成了一个hash，基于sha-1算法，拥有40位16进制数。  
 
 ---
 ###### Mario

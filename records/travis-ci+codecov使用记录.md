@@ -42,9 +42,17 @@ done
  
 ---
 ### codecov
-> 值得一提的是，codecov不支持中文路径，如果你的测试报告路径中有中文（或者说有中文路径），对应部分将被屏蔽。
+> 值得一提的是，codecov不支持中文路径，如果你的项目里有中文路径，对应部分将被屏蔽。
 
 上面介绍了两个脚本的基本情况，并保证其可用([demo-leetcode](https://github.com/mats9693/leetcode), [demo-utils](https://github.com/mats9693/utils))。  
+
+---
+### summary
+以上是自己的repo使用travis-ci和codecov的方法；  
+对于组织的public repo，需要申请组织授权；  
+其中，travis-ci在授权之后，还需要使用管理员账号启动指定repo的持续集成，详情请参考travis-ci的权限问题。  
+
+对于组织的private repo，codecov可能需要加一个秘钥；travis-ci需要改用travis-ci.com网站，该网站提供的是收费服务。  
 
 ---
 ###### Mario

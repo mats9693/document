@@ -19,6 +19,9 @@
     - 无法写入（panic：nil）
     - 可以执行读操作，但使用v, ok := map[key]时，ok = false, v为对应类型的0值  
  1. go import _ 只执行init()函数，不导入任何内容，包括但不限于类型定义、变量、常量和函数
+ 1. 在方法中，对接收者的赋值只会在方法内生效
+    - e.g.形如"func (r *Receiver)Method() { r = &Receiver{Value:1} }"，在方法内打印r.Value是1，方法外不是
+    - 值接收者和指针接收者都包括在内
 
 ---
 ###### Mario
