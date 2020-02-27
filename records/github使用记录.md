@@ -1,5 +1,6 @@
 # Github使用记录  
 > 本文记录了笔者学习使用git和github的过程。  
+> 推荐一个git图文讲解+实际练习的[网站](https://learngitbranching.js.org/)，[github地址](https://github.com/pcottle/learnGitBranching)
 
 ---
 ### 基础的代码上传、下载操作  
