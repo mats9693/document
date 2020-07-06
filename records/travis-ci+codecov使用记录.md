@@ -40,9 +40,13 @@ done
 ```
 笔者不熟悉shell，从结果来看，这个脚本的功能是遍历脚本所在目录下的文件夹，执行go test并把所有测试报告整合为相同目录下的coverage.txt文件。  
  
+travis-ci默认不会持续集成任何代码仓库，需要在它的网站上，为需要持续集成的代码仓库主动开启持续集成功能。
+
 ---
 ### codecov
 > 值得一提的是，codecov不支持中文路径，如果你的项目里有中文路径，对应部分将被屏蔽。
+
+codecov的使用则是需要一个token，可以在github的代码仓库中设置，也可以放在持续集成脚本中。
 
 上面介绍了两个脚本的基本情况，并保证其可用([demo-leetcode](https://github.com/mats9693/leetcode), [demo-utils](https://github.com/mats9693/utils))。  
 
@@ -50,9 +54,7 @@ done
 ### summary
 以上是自己的repo使用travis-ci和codecov的方法；  
 对于组织的public repo，需要申请组织授权；  
-其中，travis-ci在授权之后，还需要使用管理员账号启动指定repo的持续集成，详情请参考travis-ci的权限问题。  
-
-对于组织的private repo，codecov可能需要加一个秘钥；travis-ci需要改用travis-ci.com网站，该网站提供的是收费服务。  
+其中，travis-ci在授权之后，还需要使用管理员账号启动指定repo的持续集成，详情请参考travis-ci的权限问题。    
 
 ---
 ###### Mario
