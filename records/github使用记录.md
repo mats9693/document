@@ -41,10 +41,11 @@ git rebase [branch A] [branch B] 把B分支移动到A分支上（B分支可以�
 ---
 ### 标签
 git tag [tag name] [commit id] 为指定commit生成tag  
+git tag -d [tag name] 删除指定tag  
 git push [repository name] [tag name] 提交指定tag  
 git push [repository name] --tags 提交所有tag
 
-git describe [commit id] 输出格式：<tag>_<numCommits>_g<hash>，返回距离给出的提交最近的tag，
+git describe [commit id] --tags 输出格式：\<tag>_\<numCommits>_g\<hash>，返回距离给出的提交最近的tag，
 如果该提交与tag指向的提交不同，则注明两次提交的距离，以及给出的提交的部分hash；否则只返回tag名称
 
 ---
