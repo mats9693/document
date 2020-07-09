@@ -40,9 +40,12 @@ git rebase [branch A] [branch B] 把B分支移动到A分支上（B分支可以�
 
 ---
 ### 标签
-git tag [tag name] [commit id] 为指定commit生成tag  
+git tag [tag name] [commit id] -m [message] 为指定commit生成tag，包含描述信息  
+git tag -m [message] [tag name -f]  为指定tag更新描述信息  
 git tag -d [tag name] 删除指定tag  
-git push [repository name] [tag name] 提交指定tag  
+git tag -v [tag name] 显示指定tag详情  
+git push [repository name] [tag name] 提交指定tag
+git push [repository name] :refs/tags/[del tag name] 向远程仓库提交“删除tag”操作  
 git push [repository name] --tags 提交所有tag
 
 git describe [commit id] --tags 输出格式：\<tag>_\<numCommits>_g\<hash>，返回距离给出的提交最近的tag，
