@@ -14,7 +14,16 @@ git stash clear
 git stash  
 git stash pop [stash@{[n]}]  
 git pull [repository name] [branch name]  
-（pull是fetch+merge的语法糖）  
+（**pull**是**fetch+merge**的语法糖）  
+
+#### 个人习惯
+git stash  
+git pull  
+git stash pop  
+...handle conflict if exist...  
+git add .  
+git commit -m [message]  （需要比较代码、部分提交时，会使用ide进行提交）  
+git push  
 
 ---
 ### 初始化  
@@ -25,14 +34,14 @@ git remote -v
 git remote add [repository name] [url]   
 
 ---
-### 分支操作  
+### 分支  
 git branch -[a/r]v 列出所有/远端/本地分支  
 git branch [branch name] 新建分支  
-git branch -d [branch name] 使用"-D"强制删除  
+git branch -d [branch name] 删除分支（使用"-D"强制删除）  
 git branch -f [branch A] [branch B or commit B] 将A分支强制移动到B分支或B提交  
 git checkout [branch name] 切换分支  
 git checkout -b [branch name] 新建分支并切换到目标分支上  
-（checkout实际上操作的是HEAD）  
+（checkout实际上操作的是**HEAD**）  
 
 git merge [branch name(s)] 合并目标分支到当前分支上  
 git merge [branch A] [branch B] 把A分支合并到B分支
@@ -40,6 +49,7 @@ git rebase [branch A] [branch B] 把B分支移动到A分支上（B分支可以�
 
 ---
 ### 标签
+git tag -l 列举所有标签  
 git tag [tag name] [commit id] -m [message] 为指定commit生成tag，包含描述信息  
 git tag -m [message] [tag name -f]  为指定tag更新描述信息  
 git tag -d [tag name] 删除指定tag  
