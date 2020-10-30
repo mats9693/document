@@ -16,7 +16,7 @@ git stash pop [stash@{[n]}]
 git pull [repository name] [branch name]  
 （**pull**是**fetch+merge**的语法糖）  
 
-#### 个人习惯
+##### 个人习惯
 git stash  
 git pull  
 git stash pop  
@@ -85,6 +85,14 @@ git revert [commit id] “撤销为该提交的上一次提交”，并将本次
 git log --online --graph -n/--all 使用图显示*最近n个/所有*commit，每个commit显示为一行  
 git log [file name] 查看涉及指定文件的所有commit  
 git blame [file name] 查看指定文件各行最后修改所在的commit及作者
+
+---
+### 删除未加入版本管理的文件
+git clean -f 强制删除，必须出现（或在git配置中添加对应项）  
+git clean -fd 强制删除，包括文件夹  
+git clean -i 互动模式（interactive）  
+git clean -n 显示将要删除的文件，而不是真的删除，与其他选项搭配使用，如：git clean -nfd  
+git clean -- [path(s)] 仅作用于指定路径  
 
 ---
 ### 整理提交记录
